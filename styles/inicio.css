@@ -1,0 +1,243 @@
+.hero{
+    position: relative;
+    width: 1440px;
+    height: 909px;
+
+    
+    background: #FFFFFF;
+}
+.logo{
+    position: absolute;
+    height: 60;
+    text-align: center;
+    font-size: large;
+    border: 2px solid #1C59A2;
+    background-color: white;
+    color: #1C59A2;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-style: normal;
+    border-radius: 5px;
+    font-weight:lighter;
+    font-size: large;
+    margin-top: 0px;
+    
+    }
+  
+
+    .logo span{
+        color: white;
+        background-color: #1C59A2;
+        padding-right: 10px;
+        padding-left: 3px;
+        padding-bottom: 2px;
+        
+    }
+   
+    nav{
+        display: flex;
+       
+       margin-top: 0;
+       margin-left: 0;
+       padding-left: 10px;
+       top: 0;
+       left: 0;
+       right: 0;
+        align-items: center;
+        justify-content: space-between;
+      background-color: #1C59A2;
+      position: fixed;
+      flex-shrink: 0%;
+      height: 100px;
+     z-index: 100;
+    }
+    nav ul{
+        
+        padding-left: 150px;
+    }
+    nav ul li{
+       
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+       width: 75px;
+height: 21px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+    }
+nav ul li a{
+    width: 45px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+nav ul li a:hover{
+text-decoration: underline;
+}
+.line{
+    position: absolute;
+width: 71px;
+height: 3px;
+left: 170px;
+top: 65px;
+
+
+    background-color: #FFFFFF;
+}
+.messeages-box{
+    position: absolute;
+
+    top: 0px;
+    right: 60px;
+    width: 220px;
+    height: 127px;
+    background-color: white;
+    text-align: center;
+    border-radius:0px 0px 10px 10px ;
+  
+line-height: 21px;
+z-index: 100;
+flex-shrink:0 ;
+position: fixed;  
+}
+.messeages-box a{
+    text-decoration: none;
+    color: #1C59A2;
+    left: 65px;
+    position: absolute;
+    top: 90px;
+    color: #194F90;
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+.messeages-box img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 80px;
+
+}
+.group-4{
+    position: absolute;
+width: 745px;
+height: 592px;
+left: 620px;
+top: 150px;
+}
+.mask-group{
+    position: absolute;
+width: 632.31px;
+height: 559.23px;
+left: 0px;
+
+}
+.mask-group img{
+    position: absolute;
+    width: 632.31px;
+    height: 559.23px;
+   
+       
+    z-index: 90;
+}
+
+.vector-2{
+    position: absolute;
+width: 745px;
+height: 123px;
+left: -30px;
+top: 435px;
+z-index: 90;
+}
+.eclipse-1{
+
+position: absolute;
+width: 452.13px;
+height: 119.84px;
+left: 570px;
+top: 410.67px;
+z-index: 80;
+background: #FFFFFF;
+filter: blur(153.5px);
+transform: rotate(-20.54deg);
+}
+.paragraph-1{
+    position: absolute;
+width: 509px;
+height: 252px;
+left: 137px;
+top: 256px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 84px;
+z-index: 99;
+color: #FFFFFF;
+}
+.rectangle{
+
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: -10px;
+    top: 18px;
+    z-index: 10;
+    background: linear-gradient(180deg, #1C59A2 41.15%, rgba(28, 89, 162, 0) 100%), #000000;
+}
+.conocelos{
+    position: absolute;
+    width: 115px;
+    height: 28px;
+    left: 199px;
+    top: 599px;
+  
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #FFFFFF;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+z-index: 10;    
+
+}
+.conocelos a{
+    text-decoration: none;
+    color: #1C59A2;
+}
+.whatsapp{
+    position: absolute;
+    width: 78px;
+height: 78px;
+left: 1336px;
+top: 784px;
+
+background: url(whatsapp.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+z-index: 10;
+
+}

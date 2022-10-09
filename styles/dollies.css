@@ -1,0 +1,60 @@
+.text-1-a a{
+    text-decoration: none; 
+    color: #1C59A2; 
+}
+.text-1-a{
+    position: absolute;
+width: 130px;
+height: 28px;
+left: 51px;
+top: 13px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+z-index: 4;
+}
+.rectangle-11-a{
+    
+position: absolute;
+width: 331px;
+height: 53.3px;
+left: 0px;
+top: 0px;
+background-color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-4-a{
+    position: absolute;
+    width: 74px;
+    height: 28px;
+    left: 53px;
+    top: 221px;
+    z-index: 5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+.text-4-a a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.rectangle-11-3-a{
+    position: absolute;
+    width: 331px;
+    height: 53.3px;
+    left: 0px;
+    top: 207.91px;
+    
+    background: #1C59A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.group-15-a{
+    position: absolute;
+    top: -455px;
+}
